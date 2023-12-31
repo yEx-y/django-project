@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Night Operator",
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 4,
   "workbench.editor.labelFormat": "short",
@@ -83,7 +83,9 @@
   // "python.defaultInterpreterPath": "./venv/bin/python",
   "python.defaultInterpreterPath": "\\venv\\Scripts\\python.exe",
   "python.analysis.typeCheckingMode": "basic"
+  // "editor.linkedEditing": true,
   // "cSpell.enabled": true,
   // "python.formatting.provider": "none"
+  
   
 }

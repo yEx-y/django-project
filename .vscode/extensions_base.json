@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.autopep8",
+      "ms-python.flake8",
+      "ms-python.vscode-pylance",
+      "formulahendry.code-runner",
+      "pranaygp.vscode-css-peek",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "batisteo.vscode-django",
+      "christian-kohler.path-intellisense",
+      "pkief.material-icon-theme",
+      "ritwickdey.LiveServer",
+      "xabikos.JavaScriptSnippets",
+      "formulahendry.auto-rename-tag"
+    ]
+  }
