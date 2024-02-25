@@ -1,16 +1,18 @@
 {
-  "workbench.colorTheme": "Night Operator",
+  "workbench.colorTheme": "Min Dark",
+  // "workbench.colorTheme": "Night Operator",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.labelFormat": "short",
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Operator Mono Lig'",
+  // "editor.fontFamily": "'Operator-caska','CaskaydiaCove Nerd Font Mono','Operator Mono Lig'",
+  "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontSize": 14,
   // "editor.fontFamily": "'FantasqueSansM Nerd Font Propo','Operator Mono Lig'",
   // "editor.letterSpacing": 0.2,
   // "editor.fontWeight":"100",
-  // "editor.lineHeight":1.5 ,
+  // "editor.lineHeight":1.8 ,
   "editor.renderLineHighlight": "gutter",
   "workbench.tree.indent": 8,
   "files.autoSave": "afterDelay",
@@ -18,7 +20,7 @@
   "editor.guides.bracketPairs": "active",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "liveServer.settings.CustomBrowser":"chrome",
+  "liveServer.settings.CustomBrowser": "chrome",
   "editor.minimap.enabled": false,
   "workbench.startupEditor": "none",
   "editor.hover.enabled": true,
@@ -32,6 +34,8 @@
   "terminal.integrated.fontFamily": "InconsolataGo Nerd Font",
   "explorer.fileNesting.enabled": true,
   "[django-html]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "junstyle.vscode-django-support",
     "editor.quickSuggestions": {
       "other": true,
       "comments": true,
@@ -52,7 +56,7 @@
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
@@ -74,6 +78,8 @@
     "*.html": "html",
     "**/templates/*.html": "django-html",
     "**/templates/*": "django-txt",
+    "**/views/**/*.html": "django-html",
+    "*.tpl": "django-html",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
   // Emmet
